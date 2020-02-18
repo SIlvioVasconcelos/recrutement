@@ -16,14 +16,16 @@ public class PersonService {
     persons = new ArrayList<>();
   }
 
-  public void addPerson(Person person) {
+  final void addPerson(Person person) {
     persons.add(person);
   }
 
   public List<String> getNames() {
+    return null;
   }
 
   public List<Person> getOrderedPersons() {
+    return null;
   }
 
   public void addListOfPerson(List<Person> peopleToAdd) {
