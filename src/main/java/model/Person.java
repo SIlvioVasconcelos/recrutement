@@ -3,6 +3,7 @@ package model;
 public class Person {
 
   private final String name;
+  private String surname;
 
 
   public Person(String name) {
